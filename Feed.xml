@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+	android:orientation="vertical"
+>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+
+		<ImageView
+
+			android:src="@drawable/logo"
+
+
+			android:layout_width="100dp"
+			android:layout_height="50dp" />
+		<ImageView
+
+              android:gravity="center_vertical"
+			android:src="@drawable/chat2"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:layout_marginLeft="150dp"/>
+	</LinearLayout>
+	
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:src="@drawable/foto"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+			/>
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:orientation="vertical">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+
+					android:text="giul.ia_"/>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="10sp"
+					android:text="Coroado.Manaus"/>
+			</LinearLayout>
+
+			<ImageView
+				android:src="@drawable/mais"
+				android:layout_width="20dp"
+				android:layout_height="20dp"
+				android:gravity="left"
+				android:layout_marginLeft="130dp"
+
+			/>
+		</LinearLayout>
+		<ImageView
+			android:gravity="center_horizontal"
+			android:src="@drawable/pipoca"
+			android:layout_width="250dp"
+			android:height="250dp"
+			android:layout_marginLeft="24dp"
+		/>
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="30dp"
+			android:orientation="horizontal">
+			<ImageView
+				android:src="@drawable/curti"
+				android:layout_width="20dp"
+				android:layout_height="20dp"
+			/>
+
+
+			<ImageView
+				android:src="@drawable/comentario"
+				android:layout_width="30dp"
+				android:layout_height="20dp"
+
+
+			/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:src="@drawable/foto"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+			/>
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:orientation="vertical">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+
+					android:text="duda03_"/>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="10sp"
+					android:text="CidadeNova.Manaus"/>
+			</LinearLayout>
+
+			<ImageView
+				android:src="@drawable/mais"
+				android:layout_width="20dp"
+				android:layout_height="20dp"
+				android:gravity="left"
+				android:layout_marginLeft="130dp"
+
+			/>
+		</LinearLayout>
+		<ImageView
+			android:gravity="center_horizontal"
+			android:src="@drawable/pipoca"
+			android:layout_width="250dp"
+			android:height="250dp"
+			android:layout_marginLeft="24dp"
+		/>
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="30dp"
+			android:orientation="horizontal">
+			<ImageView
+				android:src="@drawable/curti"
+				android:layout_width="20dp"
+				android:layout_height="20dp"
+			/>
+
+
+			<ImageView
+				android:src="@drawable/comentario"
+				android:layout_width="30dp"
+				android:layout_height="20dp"
+
+
+			/>
+		</LinearLayout>
+
+</LinearLayout>
