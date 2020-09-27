@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">PuppiesApp</string>
+    <string name="caoRb">Cão</string>
+    <string name="gatoRb">Gato</string>
+    <string name="femeaRb">Fêmea</string>
+    <string name="machoRb">Macho</string>
+    <string name="claroRb">Claro</string>
+    <string name="escuroRb">Escuro</string>
+    <string name="mesticaRb">Mestiça</string>
 
-    <string name="app_name">Testex</string>
-    <string name="hello_world">Hello world!</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

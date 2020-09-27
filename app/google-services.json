@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "130944182994",
+    "firebase_url": "https://puppiesapp-a98e1.firebaseio.com",
+    "project_id": "puppiesapp-a98e1",
+    "storage_bucket": "puppiesapp-a98e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130944182994:android:1c25df7cb65b8c56d75b0b",
+        "android_client_info": {
+          "package_name": "com.example.puppiesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130944182994-uhi4fahf6b73tf0k6scmoqmocsh1hn4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.puppiesapp",
+            "certificate_hash": "efd5730e69f56e96db4b8902f24befa4220fcb84"
+          }
+        },
+        {
+          "client_id": "130944182994-qoh9102sbb41j64it5svftn7egtee44k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnU8aoBT71AhB2YUSR7hwKzRJDV6GRP7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130944182994-qoh9102sbb41j64it5svftn7egtee44k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

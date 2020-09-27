@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/retangle"
+        android:layout_height="wrap_content">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/profileIv"
+            android:layout_width="40dp"
+            android:src="@drawable/ic_profile_black"
+            android:layout_height="40dp"/>
+       <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+           android:id="@+id/onlineStatusIv"
+           android:background="@drawable/circle_online"
+           android:layout_width="10dp"
+           android:layout_height="10dp"/>
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textColor="#000000"
+            android:fontFamily="@font/comfortaa"
+            android:textSize="15dp"
+            android:layout_toEndOf="@+id/profileIv"
+            android:layout_toRightOf="@+id/profileIv"
+            />
+        <TextView
+            android:id="@+id/lastMessageTv"
+            android:maxLines="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="conversa"
+            android:textColor="#000000"
+            android:layout_toEndOf="@+id/profileIv"
+            android:layout_toRightOf="@+id/profileIv"
+            android:layout_below="@+id/nameTv"
+            />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+
+

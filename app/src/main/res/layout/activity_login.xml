@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <ImageButton
+        android:id="@+id/btn_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/voltar"
+        android:background="@null"
+        android:onClick="Voltar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puppies"
+        android:textSize="50dp"
+        android:fontFamily="@font/playlist"
+        android:textColor="#0F6EA7"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="ADOÇÃO DE ANIMAIS ONLINE"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="@font/comfortaa"
+        android:textSize="22dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="30dp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/txt_emaill"
+        android:layout_width="242dp"
+        android:layout_height="45dp"
+        android:textColor="@android:color/black"
+        android:hint=" Email"
+        android:textSize="14sp"
+        android:paddingStart="15sp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:inputType="text"
+        android:background="@drawable/retangle"
+        android:layout_marginBottom="10dp"/>
+
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:id="@+id/txt_senhal"
+        android:layout_width="242dp"
+        android:layout_height="45dp"
+        android:textColor="@android:color/black"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        android:paddingStart="15sp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+
+        android:background="@drawable/retangle"
+        />
+    <Button
+        android:id="@+id/btn_Logar"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/comfortaa"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button3"
+
+
+        android:text="Ir"
+        android:textColor="@android:color/white"
+
+        />
+
+
+        <TextView
+            android:id="@+id/esqueceuSenhaTv"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/comfortaa"
+            android:layout_height="wrap_content"
+            android:text="Esqueceu sua senha?Recupere-a"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            />
+
+    <!--
+<Button
+    android:id="@+id/btn_google_sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp"
+    android:background="@android:color/white"
+    android:drawableStart="@drawable/fui_ic_googleg_color_24dp"
+    android:text="Sign of Google"
+    android:textColor="@android:color/black"
+
+    />      -->
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".PerfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:id="@+id/linearLayout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:gravity="center">
+
+
+
+
+           <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+               android:id="@+id/avatarIv"
+               android:layout_width="80dp"
+               android:layout_marginTop="30dp"
+               android:layout_height="80dp"
+               android:background="@drawable/button1"
+               android:src="@drawable/ic_addphoto"
+               android:padding="5dp"
+               />
+           <TextView
+               android:id="@+id/userTv"
+               android:fontFamily="@font/comfortaa"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10sp"
+
+               android:textSize="30sp"/>
+
+           <TextView
+               android:id="@+id/tipouserTv"
+               android:fontFamily="@font/comfortaa"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_marginTop="10sp"
+
+               android:textSize="15sp"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Animais que você está ajudando!"
+               android:layout_marginLeft="5sp"
+               android:textColor="#0F6EA7"
+               android:fontFamily="@font/comfortaa"
+               />
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="4dp"
+               android:background="@drawable/retangle"/>
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/recyclerview_posts"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"/>
+
+       </LinearLayout>
+   </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+
+</RelativeLayout>
